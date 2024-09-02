@@ -1,4 +1,4 @@
-import {Component, input} from '@angular/core';
+import { Component, input } from '@angular/core';
 
 export interface Image {
   src: string;
@@ -10,9 +10,9 @@ export interface Image {
   standalone: true,
   imports: [],
   templateUrl: './dashboard-item.component.html',
-  styleUrl: './dashboard-item.component.css'
+  styleUrl: './dashboard-item.component.css',
 })
 export class DashboardItemComponent {
-  image = input.required<Image>()
-  title = input.required<string>()
+  image = input.required<Image>();
+  title = input.required<string>();
 }
