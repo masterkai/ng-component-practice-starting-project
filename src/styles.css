@@ -30,5 +30,6 @@ main {
 @media (min-width: 768px) {
   #dashboard {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
